@@ -4,7 +4,7 @@ A small static portfolio for GitHub Pages. The deployment repository is `veera-1
 
 ## Publish an update from this workspace
 
-From the root of `backend-prep-lab`, split the portfolio directory into a commit at the root of the publishing repository and push it to `main`:
+After committing `portfolio/` in `backend-prep-lab`, run this from that repository's root to split the portfolio directory into a commit at the root of the publishing repository and push it to `main`:
 
 ```powershell
 $portfolioCommit = git subtree split --prefix=portfolio HEAD
