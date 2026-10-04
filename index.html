@@ -10,21 +10,21 @@
     <meta property="og:image" content="https://veera-1729.github.io/images/veerabhadrudu.png" />
     <title>Veerabhadrudu Bheemisetty — Software Engineer</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="./timeline.css?v=2page-up" />
+    <link rel="stylesheet" href="./timeline.css?v=single-page" />
   </head>
   <body>
     <header class="header">
-      <a class="brand" href="./"><span class="brand-icon">VB</span><span>Veerabhadrudu Bheemisetty</span></a>
-      <nav aria-label="Main navigation"><a class="active" href="./">About</a><a href="./projects.html">Side projects <span aria-hidden="true">↗</span></a><a class="nav-linkedin" href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer">LinkedIn ↗</a></nav>
+      <a class="brand" href="#about"><span class="brand-icon">VB</span><span>Veerabhadrudu Bheemisetty</span></a>
+      <nav aria-label="Main navigation"><a class="active" href="#about">About</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a class="nav-linkedin" href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer">LinkedIn ↗</a></nav>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="about">
         <div class="hero-copy">
           <p class="eyebrow">SOFTWARE ENGINEER <span>·</span> BANGALORE, INDIA</p>
           <h1>Building software<br />from idea to <em>impact.</em></h1>
           <p class="hero-lede">I’m a software engineer at <strong>CRED</strong>, working on lending. I help move loan disbursals across lenders, meet compliance needs and unblock users in production.</p>
-          <div class="hero-links"><a class="button-primary" href="./projects.html">Explore my side projects <span aria-hidden="true">→</span></a><a class="button-text" href="https://github.com/veera-1729" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+          <div class="hero-links"><a class="button-primary" href="#projects">See what I’ve built <span aria-hidden="true">↓</span></a><a class="button-text" href="https://github.com/veera-1729" target="_blank" rel="noreferrer">GitHub ↗</a></div>
         </div>
         <figure class="portrait"><img src="./images/veerabhadrudu.png" alt="Veerabhadrudu in a park" width="460" height="460" fetchpriority="high" /><figcaption>BANGALORE, INDIA</figcaption></figure>
       </section>
@@ -39,8 +39,21 @@
           <li><span class="timeline-marker"></span><div class="timeline-date">2021 — 2024</div><div class="timeline-content"><h3>Sree Vidyanikethan Engineering College <span>·</span> B.Tech, Computer Science</h3><p>Computer Science Engineering.</p></div><span class="timeline-type">EDUCATION</span></li>
         </ol>
       </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading"><div><p class="eyebrow">SIDE PROJECTS <span>·</span> JUST FOR THE LOVE OF BUILDING</p><h2 id="projects-title">Things I’ve built</h2></div><a class="timeline-source" href="https://github.com/veera-1729?tab=repositories" target="_blank" rel="noreferrer">More on GitHub ↗</a></div>
+        <div class="project-grid" aria-label="Projects">
+          <a class="project-card featured" href="https://applywise.vegrade.com/" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">LIVE PRODUCT</span><span class="project-arrow">↗</span></span><h2>ApplyWise</h2><p>AI-powered resume building, ATS checks and job matching for students and early-career candidates.</p><span class="project-stack">AI <i>·</i> CAREER TOOLS</span></a>
+          <a class="project-card featured" href="https://backendprep.vegrade.com/#/" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">LIVE PRODUCT</span><span class="project-arrow">↗</span></span><h2>Backend Prep Lab</h2><p>A practice-first roadmap for backend interviews, system design and hands-on engineering fundamentals.</p><span class="project-stack">LEARNING <i>·</i> BACKEND</span></a>
+          <a class="project-card" href="https://github.com/veera-1729/payment-monitor" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">GO · SYSTEMS</span><span class="project-arrow">↗</span></span><h2>Payment Monitor</h2><p>A payment monitoring experiment with observer and WebSocket components.</p><span class="project-stack">GO</span></a>
+          <a class="project-card" href="https://github.com/veera-1729/low-level-design" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">GO · DESIGN</span><span class="project-arrow">↗</span></span><h2>Low Level Design</h2><p>Small, practical designs for an LRU cache, logging framework and ride-hailing service.</p><span class="project-stack">GO</span></a>
+          <a class="project-card" href="https://github.com/veera-1729/inmemory-pub-sub" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">GO · MESSAGING</span><span class="project-arrow">↗</span></span><h2>In-Memory Pub-Sub</h2><p>A lightweight broker for topics, publishers and subscribers.</p><span class="project-stack">GO</span></a>
+          <a class="project-card" href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">FULL-STACK · FLUTTER</span><span class="project-arrow">↗</span></span><h2>E-commerce Platform</h2><p>A marketplace with seller tools and a Flutter admin app for products and inventory.</p><span class="project-stack">WEB <i>·</i> FLUTTER <i>·</i> AWS</span></a>
+          <a class="project-card" href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer"><span class="project-top"><span class="project-kicker">MOBILE APP</span><span class="project-arrow">↗</span></span><h2>MediReminder</h2><p>A medication reminder app for keeping track of dosage schedules and notifications.</p><span class="project-stack">FLUTTER</span></a>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"><a class="brand" href="./"><span class="brand-icon">VB</span><span>Veerabhadrudu Bheemisetty</span></a><p>Building, learning, and shipping from Bangalore.</p><a href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer">Say hello on LinkedIn ↗</a></footer>
+    <footer class="footer"><a class="brand" href="#about"><span class="brand-icon">VB</span><span>Veerabhadrudu Bheemisetty</span></a><p>Building, learning, and shipping from Bangalore.</p><a href="https://www.linkedin.com/in/veerabhadrudu1729/" target="_blank" rel="noreferrer">Say hello on LinkedIn ↗</a></footer>
   </body>
 </html>
